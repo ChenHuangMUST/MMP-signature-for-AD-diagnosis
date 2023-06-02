@@ -46,4 +46,4 @@ All packages can be installed via bioconductor (https://www.bioconductor.org/) a
 ## MPPSS predictions
 - Code for reproducing multi machine learning methods and predictions are provided under the 'ML' folder.
 - The expected run time is needed for running multi machine learning.
-- The machine learning methods require sufficient computation time.
+- NMF clustering and enrichment annotation are provided under the main folder.
