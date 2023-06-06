@@ -1,10 +1,8 @@
 library("glmnet")
 library("survival")
 
-out <- matrix(nrow = 5000, ncol = 250)
-for (i in 1:5000) {
-  set.seed(i)
-  index <- sample(nrow(x), size = round(nrow(x)*0.7))
+#index was the method of data segmentation
+
   df <- cbind(as.factor(y), x)
   colnames(df)[1] <- "status"
   df.training <- as.matrix(df[index, ])
