@@ -1,6 +1,4 @@
 # Load required data
-load(c("imp_MPP.RData", "D:/RProject/AD/AD_train.RData", 
-      "D:/RProject/AD/NMF/afterbatch.marker.select.3.11", "MPP.RData"))
 
 library(NMF)
 
