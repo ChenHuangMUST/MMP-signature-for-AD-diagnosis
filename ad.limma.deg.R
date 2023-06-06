@@ -9,9 +9,6 @@ library(enrichplot)
 library(limma)
 library(ggplot2)
 
-# Set download method for clusterProfiler package
-R.utils::setOption("clusterProfiler.download.method", "auto")
-
 # Load data files
 group <- read.delim("D:/RProject/AD/NMF/2cluster.consensus.csv", sep = ",")
 load("D:/RProject/AD/NMF/dat.nmf.ad.RData")
